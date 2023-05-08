@@ -1,5 +1,7 @@
 <details>
-<summary># VMware虚拟机挂载宿主机共享目录</summary>
+<summary>
+# VMware虚拟机挂载宿主机共享目录
+</summary>
 <pre><code>
 
 ## 在Linux中安装vm-tools：
