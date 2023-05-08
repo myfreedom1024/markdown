@@ -3,7 +3,7 @@
 VMware虚拟机挂载宿主机共享目录
 </summary>
 
-* 在Linux中安装vm-tools<br>
+* 在Linux中安装vm-tools
 ```shell
   suduo yum install -y open-vm-tools open-vm-tools-desktop
 ```
