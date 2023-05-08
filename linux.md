@@ -3,8 +3,9 @@
 VMware虚拟机挂载宿主机共享目录
 </summary>
 
-* 在Linux中安装vm-tools <br>
-yum install -y open-vm-tools open-vm-tools-desktop
+* 在Linux中安装vm-tools
+  <code>suduo yum install -y open-vm-tools open-vm-tools-desktop</code>
+
 * 查看共享的目录
 vmware-hgfsclient
 * 执行命令挂载目录
