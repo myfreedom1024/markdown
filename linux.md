@@ -4,7 +4,9 @@ VMware虚拟机挂载宿主机共享目录
 </summary>
 
 * 在Linux中安装vm-tools<br>
-  <shell>suduo yum install -y open-vm-tools open-vm-tools-desktop</shell>
+```shell
+  suduo yum install -y open-vm-tools open-vm-tools-desktop
+```
 * 查看共享的目录<br><code>vmware-hgfsclient<code>
 * 执行命令挂载目录
 mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other,nonempty
