@@ -1,10 +1,10 @@
 <details>
 <summary>
-# VMware虚拟机挂载宿主机共享目录
+VMware虚拟机挂载宿主机共享目录
 </summary>
 <pre><code>
 
-## 在Linux中安装vm-tools：
+* 在Linux中安装vm-tools：
 yum install -y open-vm-tools open-vm-tools-desktop
 
 ## 查看共享的目录
