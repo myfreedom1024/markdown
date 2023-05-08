@@ -2,7 +2,7 @@
 <summary>
 VMware虚拟机挂载宿主机共享目录
 </summary>
-<pre><code>
+
 * 在Linux中安装vm-tools：
 yum install -y open-vm-tools open-vm-tools-desktop
 * 查看共享的目录
@@ -17,5 +17,5 @@ vim /etc/fstab
 vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other,nonempty
 * 建立软连接
 ln -s /mnt/hgfs /www/work
-</code></pre>
+
 </details>
