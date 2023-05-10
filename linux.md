@@ -1,6 +1,29 @@
 <details>
 <summary>
 <span style="color: red;font-size: 20px;"><b>
+git为指定项目设置用户名密码
+</b></span>
+</summary>
+
+* 进入文件夹.git,执行以下命令，增加name和helper配置项
+```
+cat config
+```
+```
+git config user.name "你的git用户名称"
+```
+```
+git config credential.helper store
+```
+```
+cat config
+```
+* 然后回到项目根目录git pull，再输入一遍用户名和密码，下次就不需要再输入了。
+</details>
+
+<details>
+<summary>
+<span style="color: red;font-size: 20px;"><b>
 git设置忽略文件权限更改
 </b></span>
 </summary>
@@ -13,7 +36,7 @@ vi .git/conf
 </details>
 
 <details>
-<summary>
+<summary>   
 <span style="color: red;font-size: 20px;"><b>
 查看Linux系统信息
 </b></span>
