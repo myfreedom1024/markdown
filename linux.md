@@ -1,6 +1,16 @@
 <details>
 <summary>
 <span style="color: red;font-size: 20px;"><b>
+Linux下MySQL破解方法
+</b></span>
+</summary>
+
+[Linux下MySQL破解方法 ](https://navicat.rainss.cc/index_zh.html)
+</details>
+
+<details>
+<summary>
+<span style="color: red;font-size: 20px;"><b>
 git为指定项目设置用户名密码
 </b></span>
 </summary>
@@ -11,7 +21,7 @@ cat config
 ```
 ```
 git config user.name "你的git用户名称"
-```
+``` 
 ```
 git config credential.helper store
 ```
