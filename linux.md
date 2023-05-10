@@ -6,8 +6,10 @@ git设置忽略文件权限更改
 </summary>
 
 ```
-sudo git config --global core.fileMode false
+vi .git/conf
 ```
+[core]->filemode:改成false
+
 </details>
 
 <details>
