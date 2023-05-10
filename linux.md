@@ -1,9 +1,10 @@
 <details>
 <summary>
+<span style="color: red;font-size: 20px;"><b>
 git设置忽略文件权限更改
+</b></span>
 </summary>
 
-* 打开网卡
 ```
 sudo git config --global core.fileMode false
 ```
@@ -11,7 +12,9 @@ sudo git config --global core.fileMode false
 
 <details>
 <summary>
+<span style="color: red;font-size: 20px;"><b>
 查看Linux系统信息
+</b></span>
 </summary>
 
 * 查看当前系统的内核信息
@@ -29,10 +32,11 @@ cat /etc/os-release
 
 <details>
 <summary>
+<span style="color: red;font-size: 20px;"><b>
 开启mysql的root用户外网访问
+</b></span>
 </summary>
 
-* 查看当前系统的内核信息
 ```
 update user set host='%' where user ='root';
 ```
@@ -43,7 +47,9 @@ FLUSH PRIVILEGES;
 
 <details>
 <summary>
+<span style="color: red;font-size: 20px;"><b>
 linux增加编译速度
+</b></span>
 </summary>
 
 ```
@@ -56,7 +62,9 @@ sudo cmake --build . --target all -- -j $(nproc)
 
 <details>
 <summary>
+<span style="color: red;font-size: 20px;"><b>
 VMware虚拟机挂载宿主机共享目录
+</b></span>
 </summary>
 
 * 在Linux中安装vm-tools
@@ -91,7 +99,9 @@ ln -s /mnt/hgfs /www/work
 
 <details>
 <summary>
+<span style="color: red;font-size: 20px;"><b>
 设置网络-vmware-centos
+</b></span>
 </summary>
 
 * 打开网卡
