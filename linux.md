@@ -5,11 +5,11 @@ git设置忽略文件权限更改
 </b></span>
 </summary>
 
+* 打开Git配置文件
 ```
 vi .git/conf
 ```
-[core]->filemode:改成false
-
+* filemode:改成false
 </details>
 
 <details>
